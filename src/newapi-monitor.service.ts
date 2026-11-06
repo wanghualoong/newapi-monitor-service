@@ -803,7 +803,7 @@ export class NewApiMonitorService {
       hours,
       overview,
       hourly_stats: hourlyStats,
-      top_models: topModels.slice(0, 8),
+      top_models: topModels,
     };
   }
 
